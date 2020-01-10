@@ -1,10 +1,10 @@
 Dado("que eu acesse o site do {string}") do |site|
-  site = visit "https://www.google.com/"
+  SiteHelpper.load_url
 end
   
 Dado("realizo uma pesquisa") do
-  find("input[class='gLFyf gsfi']").set('facebook')
-  find("input[class='gNO89b']").click
+  PesquisaNoSiteHelper.insere_pesquisa
+  PesquisaNoSiteHelper.confirma_pesquisa
 end
   
 Entao("vejo o resultado") do
