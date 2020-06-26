@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 # Modulo responsavel pelo acesso da pagina
-module SiteHelpper
+module AcessarSiteHelpper
   class << self
     def load_url
-      Capybara.visit(SiteMapper.url)
+      Capybara.visit(AcessarSiteMappers.url)
     end
   end
 end
