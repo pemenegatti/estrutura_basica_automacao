@@ -1,0 +1,6 @@
+1 - Projeto consiste na realização de uma pesquisa simples no google de forma automatizada, o projeto é mais voltado para a arquitura basica da automação
+2 - Pré-requisito: possuir Ruby instalado (versão do Ruby usada no projeto 2.6.6)
+3 - Passo a passo para a execução:
+        passo 1:realizar a instalação do Ruby (https://www.ruby-lang.org/pt/downloads/) e clonar o projeto para a sua maquia,
+        passo2: no diretorio do projeto executar os seguintes comandos: gem install bundle, logo após executar o comando bundler install.
+        passo3: para executar o projeto basta rodar o comando cucumber no diretorio do projeto apos executar o passo2.
