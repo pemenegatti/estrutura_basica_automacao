@@ -4,7 +4,7 @@
 module PesquisaNoSiteHelper
   class << self
     def insere_pesquisa
-      PesquisaNoSiteMappers.pesquisa.set('facebook')      
+      PesquisaNoSiteMappers.pesquisa.set('pic pay')      
     end
 
     def confirma_pesquisa
