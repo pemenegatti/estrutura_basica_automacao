@@ -1,4 +1,5 @@
-1 - Projeto consiste na realização de uma pesquisa simples no google de forma automatizada, o projeto é mais voltado para a arquitura basica da automação
+1 - Projeto consiste na realização de uma pesquisa simples no google de forma automatizada e realizando um screenshot do resultado da pesquisa, 
+        o projeto é mais voltado para a arquitura basica da automação.
 2 - Pré-requisito: possuir Ruby instalado (versão do Ruby usada no projeto 2.6.6)
 3 - Passo a passo para a execução:
         passo 1: realizar a instalação do Ruby (https://www.ruby-lang.org/pt/downloads/) e clonar o projeto para a sua maquia,

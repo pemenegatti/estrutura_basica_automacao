@@ -1,2 +1,3 @@
 # Blacklist
 .vscode/launch.json
+screenshots/*

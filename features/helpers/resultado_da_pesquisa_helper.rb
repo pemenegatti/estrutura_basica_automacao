@@ -4,8 +4,7 @@
 module ResultadoDaPesquisaHelper
   class << self
     def resultado_pesquisa
-        result = ResultadoDaPesquisaMappers.valor_pesquisa.value
-        puts result 
+      ResultadoDaPesquisaMappers.valor_pesquisa 
     end
   end
 end
